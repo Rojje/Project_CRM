@@ -1,54 +1,38 @@
-# Ignorar entornos virtuales
-venv/
-.venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Ignorar archivos compilados
+# Python
 *.pyc
-*.pyo
 __pycache__/
 
-# Ignorar archivos de configuración del entorno
+# Virtual Environment
+venv/
 .env
 
-# Ignorar archivos de logs
-*.log
-
-# Ignorar archivos de bases de datos SQLite
-*.sqlite3
-
-# Ignorar configuraciones específicas de editores
-.vscode/
+# IDE files
 .idea/
+.vscode/
 
-# Ignorar archivos de cobertura de pruebas
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Ignorar archivos de Jupyter Notebook
-.ipynb_checkpoints/
+# Compiled Python files
+*.pyc
 
-# Ignorar archivos generados por PyInstaller
-*.spec
+# Database files
+*.db
+*.sqlite
 
-# Ignorar archivos de empaquetado y distribución
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-sdist/
-develop-eggs/
-.installed.cfg
-*.wheel
+# Logs and output
+*.log
+*.csv
+*.xlsx
+*.xls
+*.pdf
 
-# Ignorar archivos de configuración de Pyre
-.pyre/
+# Dependency directories
+env/
+lib/
+libs/
